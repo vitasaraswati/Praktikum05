@@ -23,7 +23,9 @@ public class PemilihanOperator29 {
     else if (operator == '*'){
         System.out.println(hasil = angka1 * angka2);
     }
-    else
+    else {
+        System.out.println("operator yang dipilih tidak tersedia");
+    }
         System.out.println(hasil = angka1 / angka2);
     }
 }

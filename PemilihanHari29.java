@@ -9,7 +9,7 @@ public class PemilihanHari29 {
     System.out.print("Input day name : ");
     dayName = sc.nextLine();
 
-    switch (dayName.toLowerCase()){
+    switch (dayName){
         case "monday":
         case "tuesday":
         case "wednesday":
